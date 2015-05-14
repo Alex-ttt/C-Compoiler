@@ -1,0 +1,26 @@
+ Symbols Table:
+   a int
+   b int
+   main  int function main(
+  )
+    {
+      Statements:
+      do .. while()
+      Condition:
+          a
+        >>
+          2
+      Body:
+        {
+          Statements:
+            a
+          +=
+              7
+            *
+              int              (
+                c
+              )
+          Symbols Table:
+                      c char
+        }
+    }

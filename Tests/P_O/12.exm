@@ -1,0 +1,16 @@
+do .. while()
+Condition:
+    a
+  >>
+    2
+Body:
+  Statements:
+      a
+    +=
+        7
+      *
+        c
+  Symbols Table:
+          void function func(
+                 )
+          a char

@@ -1,0 +1,5 @@
+void main(){
+	const float a = 5.5;
+	a;
+
+}

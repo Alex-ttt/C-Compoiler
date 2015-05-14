@@ -1,0 +1,29 @@
+ Symbols Table:
+   i int
+   main  int function main(
+  )
+    {
+      Statements:
+      for (;;) ..
+      First action:
+      Stop condition:
+      Step:
+      Body:
+        {
+          Statements:
+          i
+          --
+          if
+
+              i
+            <
+              0
+
+          then
+
+            {
+              Statements:
+              break
+            }
+        }
+    }

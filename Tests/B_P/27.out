@@ -1,0 +1,16 @@
+ Symbols Table:
+   func  int function func(
+  )
+    {
+      Statements:
+      return
+        0
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      func
+      (
+      )
+    }

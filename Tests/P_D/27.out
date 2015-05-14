@@ -1,0 +1,11 @@
+  struct a
+          struct b
+                  x float
+                  y float
+          s1 struct b
+          void function fo(
+                 )
+          pointer array[20] of pointer to void
+  s1 struct a
+
+   ----=====================================================----

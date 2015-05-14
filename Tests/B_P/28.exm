@@ -1,0 +1,20 @@
+ Symbols Table:
+   func  int function func(
+          a pointer to int
+  )
+    {
+      Statements:
+      return
+        0
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      func
+      (
+        a
+      )
+      Symbols Table:
+              a pointer to int
+    }

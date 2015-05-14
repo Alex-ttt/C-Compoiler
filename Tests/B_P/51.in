@@ -1,0 +1,9 @@
+int func(int **){
+	return 0;
+}
+
+void main(){
+	int a[5], b;
+	int *c=&a[1];
+	func(&c);
+}

@@ -1,0 +1,6 @@
+void main(){
+	const int a = 5 << 4;
+	if(a != 80){
+		printf("Wrong calculation");
+	}
+}

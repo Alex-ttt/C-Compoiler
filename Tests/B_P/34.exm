@@ -1,0 +1,41 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+        a
+      &=
+        1
+        a
+      |=
+        1
+        a
+      <<=
+        1
+        a
+      >>=
+        1
+        a
+      &=
+        int        (
+          c
+        )
+        a
+      |=
+        int        (
+          c
+        )
+        a
+      <<=
+        int        (
+          c
+        )
+        a
+      >>=
+        int        (
+          c
+        )
+      Symbols Table:
+              a int
+              c char
+    }

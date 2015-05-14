@@ -1,0 +1,6 @@
+int main()
+{
+	for (;;)
+		break;
+	printf("%d", 1);
+}

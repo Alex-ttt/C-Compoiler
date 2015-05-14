@@ -1,0 +1,11 @@
+int a, b, c, d;
+int main(){
+
+	while(a > b)
+	{	
+		if(b > c)
+			c = 0;
+		if(c > d)
+			d = 0;
+	}
+}                     

@@ -1,0 +1,9 @@
+inline void fo(int arg1, int arg2){
+	arg1 = 5;
+	++arg2;
+}
+
+void main(){
+	int a = 2, b = 3;
+ 	fo(a, b);
+}

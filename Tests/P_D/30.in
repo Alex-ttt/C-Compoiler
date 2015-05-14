@@ -1,0 +1,5 @@
+struct a{
+ 	int a;
+	int b;
+	int c;
+} *fo(int x, int y, int z);

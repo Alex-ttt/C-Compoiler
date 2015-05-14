@@ -1,0 +1,30 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+      for (;;) ..
+      First action:
+      Stop condition:
+      Step:
+      Body:
+        {
+          Statements:
+          for (;;) ..
+          First action:
+          Stop condition:
+          Step:
+          Body:
+            {
+              Statements:
+              for (;;) ..
+              First action:
+              Stop condition:
+              Step:
+              Body:
+                {
+                  << block is empty >>
+                }
+            }
+        }
+    }

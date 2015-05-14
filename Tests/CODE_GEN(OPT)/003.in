@@ -1,0 +1,9 @@
+int a;
+
+int main()
+{
+	printf("%d\n", a);
+	printf("%d\n", a + 1);
+	printf("%d\n", a - 1);
+	printf("%d %d %d", a - 1, a, a + 1);
+}

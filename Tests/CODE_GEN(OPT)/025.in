@@ -1,0 +1,15 @@
+struct point { 
+	int x, y;
+	struct {
+		int ro, fi;
+		struct {
+			int rip;
+		} x;
+	} z;	
+} a;
+
+int main()
+{
+	a.z.x.rip = -1;
+	printf("%d", a.z.x.rip);
+}

@@ -1,0 +1,6 @@
+int a, b;
+int main(){
+	for()
+		a = b;
+}
+	

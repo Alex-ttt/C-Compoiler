@@ -1,0 +1,6 @@
+void fo(int a, float b, char c){}
+
+void main(){
+	const int f = 5.5;
+	fo(f, 10 - 9, 'a'); 	
+}

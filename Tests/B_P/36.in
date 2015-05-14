@@ -1,0 +1,8 @@
+int f(int*, char*);
+
+int main()
+{
+	int a;
+	char c;
+	f(&a, &c);
+}

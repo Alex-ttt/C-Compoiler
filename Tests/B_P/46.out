@@ -1,0 +1,14 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      a
+      [
+        int        (
+          '0'
+        )
+      ]
+      Symbols Table:
+              a array[1000] of int
+    }

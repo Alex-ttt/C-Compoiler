@@ -1,0 +1,42 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      if
+
+          a
+        >
+          5
+
+      then
+
+        {
+          Statements:
+            4
+          +
+            6
+          a
+          ++
+          return
+            a
+          *
+            5
+        }
+      else
+
+        {
+          Statements:
+            4
+          -
+            6
+          a
+          --
+          return
+            a
+          /
+            5
+        }
+      Symbols Table:
+              a int
+    }

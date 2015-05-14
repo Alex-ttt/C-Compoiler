@@ -1,0 +1,10 @@
+struct point { 
+	int x, y;
+} a;
+
+int main()
+{
+	a.x = 3;
+	a.y -= a.x * a.x + a.x / a.x * (a.y * 3 - 1);
+	printf("%d %d", a.x, a.y);
+}

@@ -1,0 +1,15 @@
+struct point { 
+	int x, y;
+	struct {
+		int ro, fi;
+	} z;	
+} a;
+
+int main()
+{
+	a.x = 3;
+	a.y -= 15;
+	a.z.ro = a.x - a.y;
+	a.z.fi += a.z.ro - a.y;
+	printf("%d %d %d %d", a.x, a.y, a.z.ro, a.z.fi);
+}

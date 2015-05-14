@@ -1,0 +1,9 @@
+int sigma(int a, int b)
+{
+	return a + b;
+}
+
+int main()
+{
+	printf("%d", sigma(-1, 1));
+}

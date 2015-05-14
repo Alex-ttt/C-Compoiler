@@ -1,0 +1,21 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+        int        (
+            x
+            [
+              5
+            ]
+          +
+            x
+            [
+              8
+            ]
+        )
+      -
+        5
+      Symbols Table:
+              x array[100] of char
+    }

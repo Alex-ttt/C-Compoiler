@@ -1,0 +1,20 @@
+ Symbols Table:
+   a int
+   b int
+   main  int function main(
+  )
+    {
+      Statements:
+      while () ..
+      Condition:
+          1
+        <
+          0
+      Body:
+        {
+          Statements:
+            a
+          =
+            10
+        }
+    }

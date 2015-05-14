@@ -1,0 +1,12 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+        a
+      -
+        b
+      Symbols Table:
+              a pointer to int
+              b pointer to int
+    }

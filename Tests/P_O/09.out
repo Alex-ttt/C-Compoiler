@@ -1,0 +1,15 @@
+ Symbols Table:
+   i int
+   main  int function main(
+  )
+    {
+      Statements:
+      while () ..
+      Condition:
+        ++
+          i
+      Body:
+        {
+          << block is empty >>
+        }
+    }

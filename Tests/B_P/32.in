@@ -1,0 +1,8 @@
+int func(float *a){
+	return 0;
+}
+
+void main(){
+	int *a;
+	func(a);
+}

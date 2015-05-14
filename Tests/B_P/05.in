@@ -1,0 +1,3 @@
+int a = 0, b;
+float c;
+c = a;

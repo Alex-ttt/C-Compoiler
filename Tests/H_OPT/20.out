@@ -1,0 +1,30 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      if
+
+          4
+        <
+          5
+
+      then
+
+        {
+          Statements:
+            r
+          +=
+            10
+        }
+      else
+
+        {
+          Statements:
+            r
+          -=
+            10
+        }
+      Symbols Table:
+              r int
+    }

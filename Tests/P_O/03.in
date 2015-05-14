@@ -1,0 +1,12 @@
+int a, b;
+void fo(){}
+int main(){
+if(1){
+	fo();
+	a++;	
+}
+else {
+	fo();
+	a--;
+}
+}

@@ -1,0 +1,24 @@
+ Symbols Table:
+   func  int function func(
+          a int
+          b int
+  )
+    {
+      Statements:
+      return
+        0
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      func
+      (
+        3
+      ,
+        3
+      )
+      Symbols Table:
+              a int
+              b int
+    }

@@ -1,0 +1,25 @@
+while () ..
+Condition:
+    a
+  >
+    b
+Body:
+  Statements:
+    if
+
+        b
+      >
+        c
+
+    then
+
+      Statements:
+          c
+        =
+          0
+      c
+    >
+      d
+      d
+    =
+      0

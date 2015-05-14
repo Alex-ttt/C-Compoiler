@@ -1,0 +1,19 @@
+struct point{
+	int x, y, z;
+	int arr[10];
+	struct {
+		int ro, fi;
+	} polar;
+};
+	
+point a[100], b;
+
+int main()
+{
+	b.x = b.y = b.z = b.arr[0] = b.polar.fi = -1000;
+	int i;
+	for (i = 0; i < 100; ++i)
+		a[i] = b;
+	for (i = 0; i < 100; ++i)
+		printf("%d %d %d %d %d %d %d %d\n", a[i].x, a[i].y, a[i].z, a[i].arr[0], a[i].arr[5], a[i].arr[9], a[i].polar.fi, a[i].polar.ro);
+}

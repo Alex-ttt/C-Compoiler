@@ -1,0 +1,21 @@
+ Symbols Table:
+   fo  void function fo(
+  )
+    {
+      Statements:
+      5
+--------------------------
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      {
+        Statements:
+        5
+--------------------------
+      BLOCK_LABEL2:
+      }
+--------------------------
+--------------------------
+    }

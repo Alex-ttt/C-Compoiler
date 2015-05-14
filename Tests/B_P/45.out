@@ -1,0 +1,16 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      a
+      [
+          b
+        *
+          c
+      ]
+      Symbols Table:
+              a array[10] of int
+              b int
+              c int
+    }

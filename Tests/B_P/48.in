@@ -1,0 +1,4 @@
+void main(){
+	float *a[20];
+	*a[3];		                                 
+}

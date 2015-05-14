@@ -1,0 +1,9 @@
+inline float* fo(float **f){
+	**f++;
+	return *f;
+}
+
+void main(){
+	float *a;
+ 	fo(&a);
+}

@@ -1,0 +1,47 @@
+ Symbols Table:
+   a int
+   b int
+   c int
+   d int
+   main  int function main(
+  )
+    {
+      Statements:
+      while () ..
+      Condition:
+          a
+        >
+          b
+      Body:
+        {
+          Statements:
+          if
+
+              b
+            >
+              c
+
+          then
+
+            {
+              Statements:
+                c
+              =
+                0
+            }
+          if
+
+              c
+            >
+              d
+
+          then
+
+            {
+              Statements:
+                d
+              =
+                0
+            }
+        }
+    }

@@ -1,0 +1,9 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      5.5
+      Symbols Table:
+              a const float
+    }

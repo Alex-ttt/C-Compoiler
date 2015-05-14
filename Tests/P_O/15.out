@@ -1,0 +1,18 @@
+ Symbols Table:
+   a int
+   b int
+   main  int function main(
+  )
+    {
+      Statements:
+      for (;;) ..
+      First action:
+      Stop condition:
+      Step:
+      Body:
+        {
+          Statements:
+          a
+          ++
+        }
+    }

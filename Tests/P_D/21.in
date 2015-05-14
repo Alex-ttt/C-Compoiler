@@ -1,0 +1,1 @@
+int a, fo(), **func(int a, float), *ptr[10];

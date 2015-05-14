@@ -1,0 +1,6 @@
+void fo(int arg){}
+
+void main(){
+	int a;
+	fo(a + 8 * 6);
+}

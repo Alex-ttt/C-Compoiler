@@ -1,0 +1,32 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+          p
+        .
+          x
+      =
+        4.5
+          p
+        .
+          y
+      =
+        float        (
+          3
+        )
+          p
+        .
+          z
+      =
+        float        (
+          -
+            9
+        )
+      Symbols Table:
+              struct point
+                      x float
+                      y float
+                      z float
+              p struct point
+    }

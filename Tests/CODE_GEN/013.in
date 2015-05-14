@@ -1,0 +1,6 @@
+int a, b;
+
+int main()
+{
+	printf("%d", a = 1);
+}

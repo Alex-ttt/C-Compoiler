@@ -1,0 +1,27 @@
+struct point{
+	int x, y;
+};
+
+void print(point* p)
+{
+	printf("(%d, %d)\n", p->x, p->y);
+}
+
+point a[100], b;
+
+int main()
+{	
+	print(&a[50]);
+	b.x = b.y = 5;
+	point *p50 = &a[50];
+	*p50 = b;
+	print(p50);
+	print(++p50);
+	print(--p50);
+	int *x = &(p50->x);
+	printf("%d\n", *x);
+	++x;
+	printf("%d\n", *x);
+	++x;
+	printf("%d\n", *x);
+}

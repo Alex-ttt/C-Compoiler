@@ -1,0 +1,22 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+        a
+      +
+        5
+--------------------------
+      a
+      ++
+--------------------------
+        b
+      =
+          a
+        +
+          5
+--------------------------
+      Symbols Table:
+              a int
+              b int
+    }

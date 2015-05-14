@@ -1,0 +1,9 @@
+int squaring(int a)
+{
+	return a * a;
+}
+
+int main()
+{
+	printf("%d", squaring(3));
+}

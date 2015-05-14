@@ -1,0 +1,192 @@
+ Symbols Table:
+   fo  int function fo(
+          x int
+  )
+    {
+      Statements:
+        y
+      =
+        x
+--------------------------
+      if
+
+          y
+        >
+          0
+
+      then
+
+        {
+          Statements:
+          return
+            y
+--------------------------
+        }
+      else
+
+        {
+          Statements:
+          return
+            -
+              y
+--------------------------
+        }
+--------------------------
+      Symbols Table:
+              y int
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      {
+        Statements:
+          param0
+        =
+          -
+            5
+--------------------------
+          y
+        =
+          param0
+--------------------------
+        if
+
+            y
+          >
+            0
+
+        then
+
+          {
+            Statements:
+              inline_temp0
+            =
+              y
+            goto: BLOCK_LABEL6
+--------------------------
+          BLOCK_LABEL5:
+          }
+        else
+
+          {
+            Statements:
+              inline_temp0
+            =
+              -
+                y
+            goto: BLOCK_LABEL6
+--------------------------
+          BLOCK_LABEL4:
+          }
+--------------------------
+      BLOCK_LABEL6:
+        Symbols Table:
+                  y int
+      }
+--------------------------
+      {
+        Statements:
+          param0
+        =
+          6
+--------------------------
+          y
+        =
+          param0
+--------------------------
+        if
+
+            y
+          >
+            0
+
+        then
+
+          {
+            Statements:
+              inline_temp1
+            =
+              y
+            goto: BLOCK_LABEL9
+--------------------------
+          BLOCK_LABEL8:
+          }
+        else
+
+          {
+            Statements:
+              inline_temp1
+            =
+              -
+                y
+            goto: BLOCK_LABEL9
+--------------------------
+          BLOCK_LABEL7:
+          }
+--------------------------
+      BLOCK_LABEL9:
+        Symbols Table:
+                  y int
+      }
+--------------------------
+      {
+        Statements:
+          param0
+        =
+          0
+--------------------------
+          y
+        =
+          param0
+--------------------------
+        if
+
+            y
+          >
+            0
+
+        then
+
+          {
+            Statements:
+              inline_temp2
+            =
+              y
+            goto: BLOCK_LABEL12
+--------------------------
+          BLOCK_LABEL11:
+          }
+        else
+
+          {
+            Statements:
+              inline_temp2
+            =
+              -
+                y
+            goto: BLOCK_LABEL12
+--------------------------
+          BLOCK_LABEL10:
+          }
+--------------------------
+      BLOCK_LABEL12:
+        Symbols Table:
+                  y int
+      }
+--------------------------
+      printf(
+        "%d %d %d"
+      ,
+          inline_temp0
+        ,
+          inline_temp1
+        ,
+          inline_temp2
+      )
+--------------------------
+      Symbols Table:
+              inline_temp0 int
+              inline_temp1 int
+              inline_temp2 int
+    }

@@ -1,0 +1,22 @@
+struct point{
+	int x, y, z;
+};
+
+point add(point a, point b)
+{
+	a.x += b.x;
+	a.y += b.y;
+	a.z += b.z;
+	return a;
+}
+
+int main()
+{
+	point a, b;
+	a.x = 1;
+	a.y = 2;
+	a.z = 3;
+	b = add(a, a);
+	b = add(a, b);
+	printf("%d %d %d", b.x, b.y, b.z);
+}

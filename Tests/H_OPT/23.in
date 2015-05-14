@@ -1,0 +1,6 @@
+void main(){
+	int a = 4;
+	while(0)
+		a++;
+	return;
+}

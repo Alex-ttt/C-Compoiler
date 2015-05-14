@@ -1,0 +1,11 @@
+inline int abs(int arg){
+	if(arg > 0)
+		return arg;
+	else
+		return -arg;		
+}
+
+void main(){
+	int a, b;
+	a = abs(b);
+}

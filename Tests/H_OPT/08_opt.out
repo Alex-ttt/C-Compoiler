@@ -1,0 +1,24 @@
+ Symbols Table:
+   fo  void function fo(
+          a int
+          b float
+          c char
+  )
+    {
+      << block is empty >>
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      fo
+      (
+        13
+      ,
+        1.2
+      ,
+        'c'
+      )
+      Symbols Table:
+              f const float
+    }

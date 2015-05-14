@@ -1,0 +1,47 @@
+if
+
+    a
+  >
+    b
+
+then
+
+  Statements:
+    for (;;) ..
+    First action:
+    none
+    Stop condition:
+    none
+    Step:
+    none
+    Body:
+      Statements:
+        while () ..
+        Condition:
+            i
+          >
+            j
+        Body:
+          Statements:
+            i
+            ++
+            --
+              j
+        a
+        --
+        b
+        ++
+      Symbols Table:
+                  a int
+                  b float
+                  int function fo(
+                          a int
+                          b float
+                   )
+            Statements:
+                a
+              =
+                b
+                b
+              =
+                0

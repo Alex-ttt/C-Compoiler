@@ -1,0 +1,28 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      if
+
+          5
+        ==
+          0
+
+      then
+
+        {
+          Statements:
+          a
+          ++
+        }
+      else
+
+        {
+          Statements:
+          a
+          --
+        }
+      Symbols Table:
+              a int
+    }

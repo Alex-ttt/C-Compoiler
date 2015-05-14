@@ -1,0 +1,10 @@
+  a int
+  int function fo(
+               )
+  pointer to pointer to int function func(
+          a int
+           float
+               )
+  ptr array[10] of pointer to int
+
+   ----=====================================================----

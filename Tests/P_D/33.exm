@@ -1,0 +1,6 @@
+  struct p
+          a const int
+          b const int
+  d const struct p
+
+   ----=====================================================----

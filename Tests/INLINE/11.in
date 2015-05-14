@@ -1,0 +1,12 @@
+inline int fo(int a, int b){
+	while(a > b){
+		a--;
+		b++;
+	}	
+	return a;
+}
+
+void main(){
+	int c;
+	c = fo(100, 20);
+}

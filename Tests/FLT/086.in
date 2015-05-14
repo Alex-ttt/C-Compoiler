@@ -1,0 +1,8 @@
+float a, b;
+
+int main()
+{
+	a = 1.0;
+	b = -3.0334 + 0.0;
+	printf("%f %f", a, b);
+}

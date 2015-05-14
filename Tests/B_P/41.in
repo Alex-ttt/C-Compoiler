@@ -1,0 +1,10 @@
+struct type{
+	int a;
+	float b;
+	char c;
+};
+
+void main(){
+	type obj;
+	-obj;
+}            

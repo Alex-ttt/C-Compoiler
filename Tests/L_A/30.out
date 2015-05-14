@@ -1,0 +1,4 @@
+1	1	int   	keyword
+2	1	a 	identifier
+3	1	0.421     	float_number
+7	1	float     	keyword

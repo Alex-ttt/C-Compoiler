@@ -1,0 +1,13 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      *
+        a
+        [
+          3
+        ]
+      Symbols Table:
+              a array[20] of pointer to float
+    }

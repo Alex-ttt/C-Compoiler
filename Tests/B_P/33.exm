@@ -1,0 +1,19 @@
+ Symbols Table:
+   struct point
+          x float
+          y float
+          z float
+   func  int function func(
+          a pointer to struct point
+  )
+   main  void function main(
+  )
+    {
+      Statements:
+      func
+      (
+        h
+      )
+      Symbols Table:
+              h pointer to struct point
+    }

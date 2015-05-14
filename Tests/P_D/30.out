@@ -1,0 +1,11 @@
+  struct a
+          a int
+          b int
+          c int
+  pointer to struct a function fo(
+          x int
+          y int
+          z int
+               )
+
+   ----=====================================================----

@@ -1,0 +1,8 @@
+int main(){
+  int a, b;
+  a + 4;
+  4 + a;
+  a + 4 + b;
+  a = 0;
+  b = a + 4
+}

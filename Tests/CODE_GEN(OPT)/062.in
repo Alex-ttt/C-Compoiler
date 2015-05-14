@@ -1,0 +1,46 @@
+struct point{
+	int x, y;
+};
+
+struct vector{
+	point start, finish;
+};
+
+void print(vector v)
+{
+	printf("(%d, %d) -> (%d, %d)\n", v.start.x, v.start.y, v.finish.x, v.finish.y);
+}
+
+vector scale(vector v, int s)
+{
+	v.start.x *= s;
+	v.start.y *= s;
+	v.finish.x *= s;
+	v.finish.y *= s;
+	return v;
+}
+
+int cross_product(vector v1, vector v2)
+{
+	int x1 = v1.finish.x - v1.start.x,
+		y1 = v1.finish.y - v1.start.y,
+		x2 = v2.finish.x - v2.start.x,
+		y2 = v2.finish.y - v2.start.y;
+	return x1 * y2 - x2 * y1;
+}
+
+int main()
+{	
+	vector a, b;
+	a.start.x = a.start.y = b.start.x = b.start.y = b.finish.x = 0;
+	a.finish.x = a.finish.y = 1;
+	b.finish.y = 1;
+	print(a);
+	print(b);
+	print(scale(a, 5));
+	print(scale(b, 3));
+	print(scale(scale(a, 3), -1));
+	printf("%d %d\n", cross_product(a, b), cross_product(b, a));
+	printf("%d %d\n", cross_product(scale(a, 5), b), cross_product(scale(b, 3), a));
+	printf("%d %d\n", cross_product(scale(a, -1), scale(b, -1)), cross_product(scale(b, 3), scale(a, 3)));
+}

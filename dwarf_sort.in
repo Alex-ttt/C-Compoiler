@@ -1,0 +1,23 @@
+
+int main(){
+	int a[10];
+	int i = 0;
+	int N = 10;
+	
+	for(i = 0; i < N; ++i)		//0, 1, .. 9
+		a[i] = i;
+		
+    while(i < N) {
+        if(i == 0 || a[i - 1] <= a[i]){
+			++i;
+		} else {
+            int Temp = a[i];
+            a[i] = a[i - 1];
+            a[i - 1] = Temp;
+            -- i;
+        }
+    }
+	
+	for(i = 0; i < N; ++i)
+		printf("%d\n", a[i]);
+}

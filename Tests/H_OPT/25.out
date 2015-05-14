@@ -1,0 +1,12 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+      return
+          a
+        *
+          10
+      Symbols Table:
+              a const int
+    }

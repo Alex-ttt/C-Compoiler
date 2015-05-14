@@ -1,0 +1,22 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+        temp0
+      =
+          b
+        +
+          1
+--------------------------
+        a
+      =
+          temp0
+        *
+          temp0
+--------------------------
+      Symbols Table:
+              a int
+              b int
+              temp0 int
+    }

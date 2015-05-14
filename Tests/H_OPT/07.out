@@ -1,0 +1,22 @@
+ Symbols Table:
+   fo  void function fo(
+          arg int
+  )
+    {
+      << block is empty >>
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      fo
+      (
+          a
+        +
+            8
+          *
+            6
+      )
+      Symbols Table:
+              a int
+    }

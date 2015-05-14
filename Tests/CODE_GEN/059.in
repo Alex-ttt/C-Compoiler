@@ -1,0 +1,35 @@
+struct point{
+	int x, y;
+};
+
+struct vector{
+	point a, b;
+};
+
+void print(vector a)
+{
+	printf("start: %d %d\n", a.a.x, a.a.y);
+	printf("end: %d %d\n", a.b.x, a.b.y);
+}
+
+vector scale(vector a, int s)
+{
+	a.a.x *= s;
+	a.a.y *= s;
+	a.b.x *= s;
+	a.b.y *= s;
+	return a;
+}
+
+int main()
+{	
+	vector a, b;
+	a.a.x = a.a.y = 0;
+	a.b.x = a.b.y = 1;
+	b.a.x = b.a.y = b.b.x = 0;
+	b.b.y = 1;
+	print(b);	
+	print(scale(b, 3));
+	print(a);
+	print(scale(a, 5));
+}

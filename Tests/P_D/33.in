@@ -1,0 +1,4 @@
+const struct p{
+	const int a;
+	const int b;
+} d;

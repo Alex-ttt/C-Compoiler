@@ -1,0 +1,8 @@
+  struct unnamed struct 0
+          x int
+          y int
+          z int
+          d float
+  a struct unnamed struct 0
+
+   ----=====================================================----

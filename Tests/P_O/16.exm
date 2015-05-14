@@ -1,0 +1,21 @@
+for (;;) ..
+First action:
+none
+Stop condition:
+none
+Step:
+none
+Body:
+  Statements:
+    i
+    --
+    if
+
+        i
+      <
+        0
+
+    then
+
+      Statements:
+        continue

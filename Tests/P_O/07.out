@@ -1,0 +1,25 @@
+ Symbols Table:
+   a int
+   main  int function main(
+  )
+    {
+      Statements:
+      while () ..
+      Condition:
+          a
+        &
+          1
+      Body:
+        {
+          Statements:
+            *
+              b
+              [
+                0
+              ]
+          =
+            a
+          Symbols Table:
+                      b array[20] of pointer to int
+        }
+    }

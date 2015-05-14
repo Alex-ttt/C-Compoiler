@@ -1,0 +1,46 @@
+ Symbols Table:
+   fo  pointer to float function fo(
+          f pointer to pointer to float
+  )
+    {
+      Statements:
+      *
+        *
+          f
+          ++
+--------------------------
+      return
+        *
+          f
+--------------------------
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      {
+        Statements:
+          param0
+        =
+          &
+            a
+--------------------------
+        *
+          *
+            ++
+              param0
+--------------------------
+          inline_temp0
+        =
+          *
+            param0
+        goto: BLOCK_LABEL2
+--------------------------
+      BLOCK_LABEL2:
+      }
+--------------------------
+--------------------------
+      Symbols Table:
+              a pointer to float
+              inline_temp0 pointer to float
+    }

@@ -1,0 +1,43 @@
+struct point{
+	int x, y, z;
+};
+
+point add(point a, point b)
+{
+	a.x += b.x;
+	a.y += b.y;
+	a.z += b.z;
+	return a;
+}
+
+point foo(point a, int b)
+{
+	a.x *= b;
+	a.y /= b;
+	a.z %= b;
+	return a;
+}
+
+point foo1(point a, int b, point c)
+{
+	foo(add(a, c), b);
+	return add(a, c);
+}
+
+point a, b;
+
+int main()
+{	
+	a.x = 1;
+	a.y = 2;
+	a.z = 3;
+	b.x = -1;
+	b.y = -2;
+	b.z = -3;
+	point c = add(a, b);
+	printf("%d %d %d\n", c.x, c.y, c.z);
+	c = foo(a, 3);
+	printf("%d %d %d\n", c.x, c.y, c.z);
+	c = foo1(a, -1, c);
+	printf("%d %d %d\n", c.x, c.y, c.z);
+}

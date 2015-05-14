@@ -1,0 +1,16 @@
+int five()
+{
+	int i;
+	for (i = 0; i < 10; ++i)
+	{
+		int j = i;
+		if (i < 5)
+			continue;
+		return j;	
+	}
+}
+
+int main()
+{
+	printf("%d", five());
+}

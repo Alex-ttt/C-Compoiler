@@ -1,0 +1,35 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+      if
+
+        1
+
+      then
+
+        {
+          Statements:
+          if
+
+            2
+
+          then
+
+            {
+              Statements:
+                1
+              +
+                2
+            }
+          else
+
+            {
+              Statements:
+                2
+              -
+                1
+            }
+        }
+    }

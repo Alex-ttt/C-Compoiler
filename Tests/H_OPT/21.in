@@ -1,0 +1,9 @@
+void main(){
+	int a;
+	if(5 == 0){
+		a++;
+	} else {
+		a--;
+	}
+	
+}

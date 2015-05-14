@@ -1,0 +1,6 @@
+float a, b;
+
+int main()
+{
+	printf("%f %f", a, b);
+}

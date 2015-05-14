@@ -1,0 +1,27 @@
+for (;;) ..
+First action:
+none
+Stop condition:
+none
+Step:
+none
+Body:
+  Statements:
+    for (;;) ..
+    First action:
+    none
+    Stop condition:
+    none
+    Step:
+    none
+    Body:
+      Statements:
+        for (;;) ..
+        First action:
+        none
+        Stop condition:
+        none
+        Step:
+        none
+        Body:
+          << block is empty >>

@@ -1,0 +1,37 @@
+ Symbols Table:
+   a int
+   b int
+   fo  void function fo(
+  )
+    {
+      << block is empty >>
+    }
+   main  int function main(
+  )
+    {
+      Statements:
+      if
+
+        1
+
+      then
+
+        {
+          Statements:
+          fo
+          (
+          )
+          a
+          ++
+        }
+      else
+
+        {
+          Statements:
+          fo
+          (
+          )
+          a
+          --
+        }
+    }

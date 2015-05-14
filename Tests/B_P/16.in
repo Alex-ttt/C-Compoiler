@@ -1,0 +1,11 @@
+void main(){
+	struct point{
+		float x;
+		float y;
+		float z;
+	};
+	point *p;
+	p->x++;
+	p->y *= 0;
+	p->z = p->x - p->y /5;
+}

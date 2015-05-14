@@ -1,0 +1,4 @@
+int main()
+{
+	printf("%f", 5e-1 - 5e-2);
+}

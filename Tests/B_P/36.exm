@@ -1,0 +1,21 @@
+ Symbols Table:
+   f  int function f(
+           pointer to int
+           pointer to char
+  )
+   main  int function main(
+  )
+    {
+      Statements:
+      f
+      (
+        &
+          a
+      ,
+        &
+          c
+      )
+      Symbols Table:
+              a int
+              c char
+    }

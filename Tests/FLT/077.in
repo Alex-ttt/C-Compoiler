@@ -1,0 +1,4 @@
+int main()
+{	
+	printf("%f", 1.3);
+}

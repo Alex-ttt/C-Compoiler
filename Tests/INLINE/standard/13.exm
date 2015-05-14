@@ -1,0 +1,68 @@
+ Symbols Table:
+   fo  int function fo(
+          a int
+          b int
+  )
+    {
+      Statements:
+      return
+          a
+        *
+          b
+--------------------------
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      {
+        Statements:
+          param0
+        =
+          100
+--------------------------
+          param1
+        =
+          20
+--------------------------
+          inline_temp0
+        =
+            param0
+          *
+            param1
+        goto: BLOCK_LABEL2
+--------------------------
+      BLOCK_LABEL2:
+      }
+--------------------------
+      {
+        Statements:
+          param0
+        =
+          10
+--------------------------
+          param1
+        =
+          2
+--------------------------
+          inline_temp1
+        =
+            param0
+          *
+            param1
+        goto: BLOCK_LABEL3
+--------------------------
+      BLOCK_LABEL3:
+      }
+--------------------------
+        c
+      =
+          inline_temp0
+        +
+          inline_temp1
+--------------------------
+      Symbols Table:
+              c int
+              inline_temp0 int
+              inline_temp1 int
+    }

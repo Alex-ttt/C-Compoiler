@@ -1,0 +1,8 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+      return
+        0
+    }

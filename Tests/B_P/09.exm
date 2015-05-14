@@ -1,0 +1,10 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+      return
+        0
+      Symbols Table:
+              a pointer to int
+    }

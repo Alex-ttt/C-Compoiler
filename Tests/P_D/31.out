@@ -1,0 +1,7 @@
+  struct a
+          struct b
+                  struct c
+                          ind char
+                  third struct c
+
+   ----=====================================================----

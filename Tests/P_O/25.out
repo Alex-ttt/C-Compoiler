@@ -1,0 +1,15 @@
+ Symbols Table:
+   main  int function main(
+  )
+    {
+      Statements:
+      for (;;) ..
+      First action:
+      Stop condition:
+      Step:
+      Body:
+        {
+          Statements:
+          break
+        }
+    }

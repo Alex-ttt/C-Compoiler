@@ -1,0 +1,18 @@
+int main()
+{
+	
+	for (;;)
+	{
+		while(1)
+		{
+			do {
+				printf("do-while\n");
+				break;
+			} while (1);
+			printf("while-do\n");
+			break;
+		}
+		printf("for");
+		break;
+	}
+}

@@ -1,0 +1,20 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+              5
+            *
+              2
+          -
+            8
+        +
+          10
+      -
+          a
+        /
+          b
+      Symbols Table:
+              a int
+              b int
+    }

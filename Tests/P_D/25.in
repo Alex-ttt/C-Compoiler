@@ -1,0 +1,4 @@
+struct test{
+	int a, b ,c;
+};
+test x, y, z;

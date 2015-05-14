@@ -1,0 +1,8 @@
+int a;
+
+int main()
+{
+	a = 1;
+	printf("%d\n", a << 3);
+	printf("%d\n", a >> 2);
+}

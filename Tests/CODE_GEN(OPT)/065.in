@@ -1,0 +1,19 @@
+ struct point{
+	int x, y;
+};
+
+point p[10];
+
+int main()
+{	
+	int i = 0;
+	point *a[10];
+	for (i = 0; i < 10; ++i)
+	{
+		a[i] = &p[i];
+		p[i].x = i;
+		p[i].y = -i;
+	}
+	for (i = 9; i >= 0; --i)
+		printf("(%d, %d)\n", a[i]->x, a[i]->y);	
+}

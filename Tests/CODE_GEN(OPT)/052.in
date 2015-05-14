@@ -1,0 +1,20 @@
+struct point{
+	int x, y, z;
+	int arr[10];
+	struct {
+		int ro, fi;
+	} polar;
+};
+	
+point a, b;
+
+int main()
+{
+	b.x = b.y = b.z = -30;
+	b.arr[0] = -15;
+	b.arr[9] = 15;
+	b.polar.fi = 1;
+	b.polar.ro = -1;
+	a = b;
+	printf("%d %d %d %d %d %d %d", a.x, a.y, a.z, a.arr[0], a.arr[9], a.polar.fi, a.polar.ro);
+}

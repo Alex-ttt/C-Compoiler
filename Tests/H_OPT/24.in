@@ -1,0 +1,7 @@
+void main(){
+	int a = 4;
+	do{
+		a++;
+	} while(0);
+	return;
+}

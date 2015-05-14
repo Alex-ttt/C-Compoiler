@@ -1,0 +1,33 @@
+ Symbols Table:
+   n int
+   fo  void function fo(
+  )
+    {
+      << block is empty >>
+    }
+   main  int function main(
+  )
+    {
+      Statements:
+      for (;;) ..
+      First action:
+          i
+        =
+          0
+      Stop condition:
+          i
+        <
+          n
+      Step:
+        i
+        ++
+      Body:
+        {
+          Statements:
+          fo
+          (
+          )
+        }
+      Symbols Table:
+              i int
+    }

@@ -1,0 +1,28 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+        x
+      =
+        5
+--------------------------
+      {
+        Statements:
+          y
+        =
+          x
+--------------------------
+        printf(
+          "%d"
+        ,
+            y
+        )
+--------------------------
+        Symbols Table:
+                  y int
+      }
+--------------------------
+      Symbols Table:
+              x int
+    }

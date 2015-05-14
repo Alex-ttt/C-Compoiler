@@ -1,0 +1,10 @@
+while () ..
+Condition:
+    1
+  <
+    0
+Body:
+  Statements:
+      a
+    =
+      10

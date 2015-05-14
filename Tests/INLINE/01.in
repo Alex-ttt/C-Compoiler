@@ -1,0 +1,9 @@
+inline void fo(){
+	5;
+	return;
+}
+
+void main(){
+ 	fo();
+
+}

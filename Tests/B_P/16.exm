@@ -1,0 +1,38 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+        p
+      ->
+        x
+      ++
+          p
+        ->
+          y
+      *=
+        float        (
+          0
+        )
+          p
+        ->
+          z
+      =
+                p
+              ->
+                x
+            -
+              p
+          ->
+            y
+        /
+          float          (
+            5
+          )
+      Symbols Table:
+              struct point
+                      x float
+                      y float
+                      z float
+              p pointer to struct point
+    }

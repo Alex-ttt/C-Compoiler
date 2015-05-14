@@ -1,0 +1,20 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      if
+
+        4
+
+      then
+
+        {
+          Statements:
+            r
+          =
+            5
+          Symbols Table:
+                      r int
+        }
+    }

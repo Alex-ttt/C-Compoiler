@@ -1,0 +1,9 @@
+int a;
+
+int f() { a = 9; }
+
+void main() {
+  a * f();
+  f();
+  a * f();
+}

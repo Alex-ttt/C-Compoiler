@@ -1,0 +1,8 @@
+struct a{
+ 	struct b{
+ 		float x;
+		float y;
+	} s1;
+	void fo();
+	void *pointer[20];
+} s1;

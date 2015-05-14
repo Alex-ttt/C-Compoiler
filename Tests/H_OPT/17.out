@@ -1,0 +1,12 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      return
+        4
+      +
+        5
+      Symbols Table:
+              a int
+    }

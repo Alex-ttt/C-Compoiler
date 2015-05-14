@@ -1,0 +1,83 @@
+ Symbols Table:
+   abs  int function abs(
+          arg int
+  )
+    {
+      Statements:
+      if
+
+          arg
+        >
+          0
+
+      then
+
+        {
+          Statements:
+          return
+            arg
+--------------------------
+        }
+      else
+
+        {
+          Statements:
+          return
+            -
+              arg
+--------------------------
+        }
+--------------------------
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      {
+        Statements:
+          param0
+        =
+          b
+--------------------------
+        if
+
+            param0
+          >
+            0
+
+        then
+
+          {
+            Statements:
+              inline_temp0
+            =
+              param0
+            goto: BLOCK_LABEL6
+--------------------------
+          BLOCK_LABEL5:
+          }
+        else
+
+          {
+            Statements:
+              inline_temp0
+            =
+              -
+                param0
+            goto: BLOCK_LABEL6
+--------------------------
+          BLOCK_LABEL4:
+          }
+--------------------------
+      BLOCK_LABEL6:
+      }
+--------------------------
+        a
+      =
+        inline_temp0
+--------------------------
+      Symbols Table:
+              a int
+              b int
+              inline_temp0 int
+    }

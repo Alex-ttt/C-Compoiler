@@ -1,0 +1,6 @@
+while () ..
+Condition:
+  ++
+    i
+Body:
+  << block is empty >>

@@ -1,0 +1,49 @@
+ Symbols Table:
+   a int
+   b int
+   i int
+   j int
+   main  int function main(
+  )
+    {
+      Statements:
+      if
+
+          a
+        >
+          b
+
+      then
+
+        {
+          Statements:
+          for (;;) ..
+          First action:
+          Stop condition:
+          Step:
+          Body:
+            {
+              Statements:
+              while () ..
+              Condition:
+                  i
+                >
+                  j
+              Body:
+                {
+                  Statements:
+                  i
+                  ++
+                  --
+                    j
+                }
+              Symbols Table:
+                              a int
+                              b float
+            }
+          a
+          --
+          b
+          ++
+        }
+    }

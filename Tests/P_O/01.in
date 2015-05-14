@@ -1,0 +1,6 @@
+int a, b;
+int main(){
+
+if(a > b)
+	a++;
+}

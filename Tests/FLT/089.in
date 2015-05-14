@@ -1,0 +1,9 @@
+float a, b, c;
+
+int main()
+{
+	a = -0.1;
+	b = 0.005;
+	c = a * b - a * b + b * a - b * a;
+	printf("%f %f %f", a, b, c);
+}

@@ -1,0 +1,8 @@
+inline void fo(int arg){
+	arg = 5;
+}
+
+void main(){
+	const int a;
+ 	fo(a);
+}

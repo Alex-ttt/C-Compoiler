@@ -1,0 +1,17 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      while () ..
+      Condition:
+        0
+      Body:
+        {
+          Statements:
+          a
+          ++
+        }
+      Symbols Table:
+              a int
+    }

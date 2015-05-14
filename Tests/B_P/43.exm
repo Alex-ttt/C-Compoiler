@@ -1,0 +1,18 @@
+ Symbols Table:
+   func  void function func(
+          a pointer to int
+  )
+    {
+      << block is empty >>
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      func
+      (
+        a
+      )
+      Symbols Table:
+              a array[20] of int
+    }

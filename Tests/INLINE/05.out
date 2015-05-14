@@ -1,0 +1,54 @@
+ Symbols Table:
+   fo  void function fo(
+          arg1 int
+          arg2 int
+  )
+    {
+      Statements:
+        arg1
+      =
+        5
+--------------------------
+      ++
+        arg2
+--------------------------
+      Symbols Table:
+    }
+   main  void function main(
+  )
+    {
+      Statements:
+      {
+        Statements:
+          param0
+        =
+          a
+--------------------------
+          param1
+        =
+          b
+--------------------------
+          param0
+        =
+          5
+--------------------------
+        ++
+          param1
+--------------------------
+      BLOCK_LABEL2:
+        Symbols Table:
+      }
+--------------------------
+        a
+      =
+        2
+--------------------------
+        b
+      =
+        3
+--------------------------
+--------------------------
+      Symbols Table:
+              a int
+              b int
+    }

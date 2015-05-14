@@ -1,0 +1,18 @@
+for (;;) ..
+First action:
+  a
+Stop condition:
+    d
+  &
+    1
+Step:
+    a
+  /=
+    2
+Body:
+  Statements:
+      a
+    -=
+      i
+  Symbols Table:
+          i int

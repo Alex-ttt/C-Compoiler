@@ -1,0 +1,22 @@
+ Symbols Table:
+   main  void function main(
+  )
+    {
+      Statements:
+      if
+
+          a
+        !=
+          80
+
+      then
+
+        {
+          Statements:
+          printf(
+            "Wrong calculation"
+          )
+        }
+      Symbols Table:
+              a const int
+    }

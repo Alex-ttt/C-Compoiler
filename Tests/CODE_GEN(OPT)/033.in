@@ -1,0 +1,7 @@
+int main()
+{
+	int *a, *b, c;
+	a = b = &c;
+	c = 15;
+	printf("%d %d %d", *a, *b, c);
+}

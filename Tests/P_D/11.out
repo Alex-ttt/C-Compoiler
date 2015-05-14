@@ -1,0 +1,7 @@
+  i float
+  arr array[10] of float
+  ptr pointer to float
+  p array[10] of pointer to float
+  s pointer to array[20] of pointer to float
+
+   ----=====================================================----

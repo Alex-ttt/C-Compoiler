@@ -1,0 +1,8 @@
+int i;
+int main(){
+	for(;;){
+ 		i--;
+		if(i < 0)
+			break;
+	}
+}

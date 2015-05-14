@@ -1,0 +1,6 @@
+void func(int *a){}
+
+void main(){
+	int a[20];
+	func(a);	
+}

@@ -1,0 +1,7 @@
+  struct a
+          a int
+          b int
+          c int
+  c pointer to pointer to pointer to struct a
+
+   ----=====================================================----

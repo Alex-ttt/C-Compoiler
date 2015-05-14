@@ -1,0 +1,28 @@
+struct point{
+	int x, y;
+};
+
+void print(point* p)
+{
+	printf("(%d, %d)\n", p->x, p->y);
+}
+
+void swap(point *a, point *b)
+{
+	point tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
+
+point a, b;
+
+int main()
+{	
+	a.x = a.y = 0;
+	b.x = b.y = 5;
+	print(&a);
+	print(&b);
+	swap(&a, &b);
+	print(&a);
+	print(&b);
+}

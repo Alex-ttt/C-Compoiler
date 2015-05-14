@@ -1,0 +1,18 @@
+int a, b, i, j;
+int main(){
+	if(a > b){
+		for(;;){
+			int a;
+			float b;
+			while(i > j)
+			{
+				i++;
+				--j;
+			}
+		}
+		a--;
+		b++;
+	}
+}
+
+		

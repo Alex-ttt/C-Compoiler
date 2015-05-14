@@ -1,0 +1,11 @@
+struct point{
+	float x;
+	float y;
+	float z;
+};
+int func(point *a);
+
+void main(){
+ 	point *h;
+	func(h);
+}

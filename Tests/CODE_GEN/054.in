@@ -1,0 +1,21 @@
+struct point{
+	int x, y, z;
+};
+
+void print(point a)
+{
+	printf("%d %d %d\n", a.x, a.y, a.z);
+}
+
+point a;
+
+int main()
+{	
+	point b;
+	print(a);
+	b.x = b.y = b.z = 3;
+	print(b);
+	a = b;
+	print(b);
+	print(a);
+}

@@ -1,0 +1,11 @@
+inline int fo(int x){
+	int y = x;
+	if (y > 0)
+		return y;
+	else
+		return -y;
+}
+
+void main(){
+	printf("%d %d %d", fo(-5), fo(6), fo(0));
+}
